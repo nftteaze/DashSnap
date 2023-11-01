@@ -1,0 +1,12 @@
+.App-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 0 0 10%;
+  background-color: #222;
+  padding: 8px;
+  color: #fff;
+  font-family: 'PixelFont', sans-serif; /* Use a pixel art font family */
+  text-transform: uppercase; /* Optionally make text uppercase */
+}
