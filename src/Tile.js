@@ -45,7 +45,7 @@ class Tile extends Component {
     }
   }
 
-  _enqueueAnimation(interval = 2000) {
+  _enqueueAnimation(interval = 500) {
     const timeout = setTimeout(this._internalFlipCard.bind(this), interval);
     this.setState({
       pendingAnimationId: timeout,
