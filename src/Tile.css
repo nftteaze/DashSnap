@@ -10,8 +10,10 @@
   height: 100%;
   position: absolute;
   transform-style: preserve-3d;
-  transition: transform .280s;
+  transition: transform 0.280s;
+  background-color: white; /* Set the background color of the cards to white */
 }
+
 
 .Tile-container .Tile-card figure {
   margin: 0;
